@@ -1,0 +1,10 @@
+[package]
+name = "honeycomb-cli"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+log = "0.4.29"
+
+tracing = "0.1"
+tracing-subscriber = "0.3"

@@ -7,7 +7,7 @@ use tracing::{level_filters::LevelFilter, trace};
 
 use std::{env, io, process::Command};
 
-use honeycomb::logger::init_logger;
+use honeycomb_engine::logger::init_logger;
 
 fn bootstrap() {
     info!("Initialising");
