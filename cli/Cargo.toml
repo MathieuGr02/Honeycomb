@@ -10,3 +10,15 @@ tracing = "0.1"
 tracing-subscriber = "0.3"
 
 clap = { version = "4.6.1", features = [ "derive" ] }
+thiserror = "2.0.18"
+
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.150"
+
+hyper = "1"
+hyper-util = "0.1.20"
+hyperlocal = "0.9"
+
+tokio = { version = "1.52.3", features = ["full"] }
+
+toml = "1.1.0"

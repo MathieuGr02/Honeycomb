@@ -3,3 +3,4 @@ firecracker
 fs/
 *.bin
 *.ext4
+*.bkp

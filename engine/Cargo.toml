@@ -4,11 +4,18 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-nix = { version = "0.31.2", features = [ "process", "mount", "sched", "hostname", "fs" ] }
-
 log = "0.4.29"
 
 tracing = "0.1"
 tracing-subscriber = "0.3"
 
 actix-web = "4.13.0"
+
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.150"
+
+sha2 = "0.11.0"
+
+chrono = "0.4.44"
+rand = "0.10.1"
+hex = "0.4.3"

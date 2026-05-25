@@ -1,2 +1,2 @@
 [workspace]
-members = ["engine", "cli"]
+members = ["engine", "cli", "runtime"]
